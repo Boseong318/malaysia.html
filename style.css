@@ -45,6 +45,16 @@ ol{
   padding: 20px;
   padding-left: 40px;
 }
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  #grid ol{
+    border:20px solid dimgray;
+    margin: 0;
+    padding: 20px;
+    padding-left: 40px;
+  }
 .saw{
   color: SlateGray;
 }
